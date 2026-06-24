@@ -1,0 +1,10 @@
+# 민감 정보 — 절대 커밋 금지
+*.secret
+*_webhook*
+.env
+secrets/
+*.key
+*.pem
+
+# 실제 IP가 든 운영 설정
+prometheus.prod.yml
